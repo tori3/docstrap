@@ -106,7 +106,7 @@ jQuery.fn.toc.defaults = {
   smoothScrolling: true,
   prefix: 'toc',
   onHighlight: function() {},
-  highlightOnScroll: true,
+  highlightOnScroll: false,
   navbarOffset: 0,
   anchorName: function(i, heading, prefix) {
     return prefix+i;
